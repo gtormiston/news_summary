@@ -1,0 +1,31 @@
+{
+  "name": "news_summary_app",
+  "version": "1.0.0",
+  "description": "A simple one page javascript app that gets news items from the Guardian website API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtormiston/news_summary.git"
+  },
+  "author": "GT Ormiston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtormiston/news_summary/issues"
+  },
+  "homepage": "https://github.com/gtormiston/news_summary#readme",
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "sass": "^0.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4",
+    "start": "^4.0.1",
+    "zombie": "^4.2.1"
+  }
+}
